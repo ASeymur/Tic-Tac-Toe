@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: rgb(50, 121, 172);
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.mainWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+
+.gameScreenWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding-top: 25px;
+}
+
+.square {
+  background: #e6d0d0;
+  border: 5px solid rgb(2, 46, 77);
+  color: rgb(2, 46, 77);
+  float: left;
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 104px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 104px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  font-size: 44px;
+  font-weight: 600;
+  color: rgb(2, 46, 77);
+  margin-bottom: 10px;
+}
+.gameTable {
+  border: 5px solid rgb(2, 46, 77);
+}
+.scoreCounter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.result {
+  font-size: 34px;
+  font-weight: 600;
+  color: #e6d0d0;
+}
+
+.resultsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(2, 46, 77);
+  border: 5px solid #e6d0d0;
+}
+
+.btnStyle {
+  padding: 20px 30px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #e6d0d0;
+  color: rgb(2, 46, 77);
+  font-weight: 600;
+  cursor: pointer;
+  border: 3px solid rgb(2, 46, 77);
+}
+
+.btnStyle:hover {
+  color: #e6d0d0;
+  background-color: rgb(2, 46, 77);
+}
+
+/* //////////////////Modal */
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  background-color: #e6d0d0;
+  padding: 40px;
+  border-radius: 5px;
+  text-align: center;
+  width: 25%;
+}
+
+.modalContentMessage {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(2, 46, 77);
+}
+
+.modalBtnStyle {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  background: #e6d0d0;
+  color: rgb(2, 46, 77);
+  font-weight: 600;
+  cursor: pointer;
+  border: 3px solid rgb(2, 46, 77);
+}
+
+.modalBtnStyle:hover {
+  background-color: rgb(2, 46, 77);
+  color: #e6d0d0;
+}
